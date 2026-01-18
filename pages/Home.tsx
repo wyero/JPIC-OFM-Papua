@@ -7,11 +7,11 @@ import { MOCK_PUBLICATIONS } from '../constants';
 const Home: React.FC = () => {
   const galleryImages = [
     { url: 'https://images.unsplash.com/photo-1590518603241-0978ce247550?q=80&w=1000&auto=format&fit=crop', title: 'Raja Ampat' },
-    { url: 'https://images.unsplash.com/photo-1518241443019-33161049906d?q=80&w=1000&auto=format&fit=crop', title: 'Lembah Baliem' },
-    { url: 'https://images.unsplash.com/photo-1626084226176-6644f8373ee1?q=80&w=1000&auto=format&fit=crop', title: 'Puncak Jaya' },
-    { url: 'https://images.unsplash.com/photo-1596328213601-572714578b7b?q=80&w=1000&auto=format&fit=crop', title: 'Danau Sentani' },
-    { url: 'https://images.unsplash.com/photo-1570533515039-3882776c5f87?q=80&w=1000&auto=format&fit=crop', title: 'Hutan Hujan Papua' },
-    { url: 'https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?q=80&w=1000&auto=format&fit=crop', title: 'Pantai Papua' },
+    { url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1000&auto=format&fit=crop', title: 'Lembah Baliem' },
+    { url: 'https://images.unsplash.com/photo-1511379938547-c1f69b13d835?q=80&w=1000&auto=format&fit=crop', title: 'Puncak Jaya' },
+    { url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1000&auto=format&fit=crop', title: 'Danau Sentani' },
+    { url: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1000&auto=format&fit=crop', title: 'Hutan Hujan Papua' },
+    { url: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=1000&auto=format&fit=crop', title: 'Pantai Papua' },
   ];
 
   return (

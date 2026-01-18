@@ -94,7 +94,7 @@ export const MOCK_PUBLICATIONS: Publication[] = [
       </div>
       <p>Data ini dikumpulkan melalui proses verifikasi yang ketat oleh tim lapangan kami. Kami mendorong transparansi dari semua pihak untuk memastikan keadilan bagi para korban.</p>
     `,
-    image: 'https://images.unsplash.com/photo-1551288049-bbbda5366fd9?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544427920-c49ccfb85579?q=80&w=2000&auto=format&fit=crop',
     type: 'infographic'
   },
   {
@@ -109,7 +109,7 @@ export const MOCK_PUBLICATIONS: Publication[] = [
       <p>Kehilangan akses terhadap hutan adat berarti kehilangan hak atas pangan, air bersih, dan obat-obatan tradisional. Ini adalah pelanggaran HAM yang sistemik. Perubahan pola cuaca yang ekstrem mulai mempengaruhi siklus tanam masyarakat pegunungan tengah, menyebabkan kerawanan pangan di beberapa distrik terpencil.</p>
       <p>JPIC OFM Papua terus menyerukan perlindungan hutan primer Papua. Kami mendesak pemerintah untuk memperkuat pengakuan hukum terhadap wilayah adat sebagai benteng terakhir melawan krisis iklim global.</p>
     `,
-    image: 'https://images.unsplash.com/photo-1570533515039-3882776c5f87?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544427920-c49ccfb85579?q=80&w=2000&auto=format&fit=crop',
     type: 'article'
   }
 ];

@@ -1,0 +1,7 @@
+{
+  "name": "JPIC OFM Papua - Keadilan, Perdamaian, Keutuhan Ciptaan",
+  "description": "Situs resmi JPIC OFM Papua yang berdedikasi pada martabat manusia, keadilan, dan perlindungan lingkungan di Tanah Papua melalui semangat Fransiskan.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

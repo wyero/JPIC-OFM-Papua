@@ -8,26 +8,49 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            scroll-behavior: smooth;
+        :root {
+            --emerald-950: #022c22;
+            --emerald-800: #064e3b;
+            --stone-50: #fdfbf7;
         }
-        h1, h2, h3, .serif {
+        body {
             font-family: 'Playfair Display', serif;
+            scroll-behavior: smooth;
+            background-color: var(--stone-50);
+        }
+        /* Kelas khusus untuk elemen yang harus tetap Sans-Serif */
+        .font-sans-ui {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif-heading {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Gaya input default agar tetap bersih */
+        input, textarea, select, button {
+            font-family: 'Inter', sans-serif !important;
         }
         .bg-papua-pattern {
             background-color: #fdfbf7;
-            background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
-        }
-        .earth-gradient {
-            background: linear-gradient(to right, #064e3b, #065f46);
+            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 20px 20px;
         }
     </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "recharts": "https://esm.sh/recharts@^3.6.0"
+  }
+}
+</script>
 </head>
-<body class="bg-stone-50 text-stone-900 antialiased">
+<body class="text-stone-900 antialiased">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
